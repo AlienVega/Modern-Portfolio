@@ -312,6 +312,7 @@ h3.my-profession{
     color: var(--text-black-700);
 }
 .home .home-img {
+    margin-top: 30px;
     flex: 0 0 40%;
     max-width: 40%;
     text-align: center;
@@ -858,7 +859,6 @@ h3.my-profession{
     }
     
     .home .home-info{
-        margin-top: 340px;
         flex: 0 0 100%;
         max-width: 100%;
     }
