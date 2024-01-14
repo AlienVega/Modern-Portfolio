@@ -607,6 +607,28 @@ h3.my-profession{
     width: 100%;
     display: block;
 }
+
+
+.portfolio .portfolio-item-subtitle {
+    display: inline-block;
+    width: 100%;
+    padding: 6px 6px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid var(--text-black-700);
+    color: var(--skin-color);
+    border-radius: 50px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .portfolio .portfolio-item-subtitle:hover {
+    background-color: var(--skin-color);
+    color: #fff;
+  }
+
 /* logo animation */
 
 

@@ -43,3 +43,15 @@ window.addEventListener("load",()=>{
         dayNight.querySelector("i").classList.add("fa-moon");
     }
 })
+
+// language toggler button
+
+const languageBtn=document.querySelector(".language");
+const languageBtnTr=document.querySelector(".languagetr");
+
+languageBtn.addEventListener("click",()=>{
+    window.location.href = "index_tr.html";
+})
+languageBtnTr.addEventListener("click",()=>{
+    window.location.href = "index.html";
+})

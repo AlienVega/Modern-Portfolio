@@ -6,13 +6,27 @@ const ageCalculate = yil-1994;
 const age =document.querySelector("#age");
 age.innerText=ageCalculate
 
+
+const pageLang = document.documentElement.lang;
+console.log(pageLang)
+
 //  typing animation
-var typed = new Typed(".typing",{
-    strings:["","Web Developer","Web Designer","Software Developer"],
-    typeSpeed:100,
-    BackSpeed:60,
-    loop:true
-})
+if(pageLang=="en"){
+    var typed = new Typed(".typing",{
+        strings:[" ","Web Developer","Web Designer","Software Developer"],
+        typeSpeed:100,
+        BackSpeed:60,
+        loop:true
+    })
+}else{
+    var typed = new Typed(".typing",{
+        strings:[" ","Web Geliştiricisiyim","Web Tasarlamacıyım","Yazılım Geliştiricisiyim"],
+        typeSpeed:100,
+        BackSpeed:60,
+        loop:true
+    })
+}
+
 
 // Aside
 
