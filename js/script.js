@@ -8,7 +8,7 @@ age.innerText=ageCalculate
 
 
 const pageLang = document.documentElement.lang;
-console.log(pageLang)
+
 
 //  typing animation
 if(pageLang=="en"){
@@ -111,3 +111,8 @@ function asideSectionTogglerBtn(){
     }
 }
 
+// portfolyo calculate
+const portfolyoItem=document.querySelectorAll(".portfolio-item").length
+const portfolyoLength=document.querySelector(".portfolyoLength");
+
+portfolyoLength.innerHTML=portfolyoItem;
